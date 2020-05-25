@@ -19,7 +19,7 @@
                 <Button Width="120" Height="30" Content="Show Detail" Command="{Binding SetNumberCmd}"/>
             </WrapPanel>
             <WrapPanel>
-                <Button x:Name="btnHttpClientFactory" Command="{Binding HttpClientCmd}"/>
+                <Button x:Name="btnHttpClientFactory" Content="HttpClient" Command="{Binding HttpClientCmd}"/>
             </WrapPanel>
         </StackPanel>
     </Grid>
